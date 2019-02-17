@@ -1,347 +1,997 @@
 <!DOCTYPE html>
-<html dir="ltr" class="client-js" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta charset="UTF-8">
-<title>Morrowind:Chuna - The Unofficial Elder Scrolls Pages (UESP)</title>
-<meta name="generator" content="MediaWiki 1.24.6">
-<link rel="alternate" type="application/x-wiki" title="Edit" href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=edit">
-<link rel="edit" title="Edit" href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=edit">
-<link rel="shortcut icon" href="https://en.uesp.net/favicon.ico">
-<link rel="search" type="application/opensearchdescription+xml" href="https://en.uesp.net/w/opensearch_desc.php" title="UESPWiki (en)">
-<link rel="EditURI" type="application/rsd+xml" href="https://en.uesp.net/w/api.php?action=rsd">
-<link rel="alternate" hreflang="x-default" href="https://en.uesp.net/wiki/Morrowind:Chuna">
-<link rel="copyright" href="https://en.uesp.net/wiki/UESPWiki:Copyright_and_Ownership">
-<link rel="alternate" type="application/atom+xml" title="UESPWiki Atom feed" href="https://en.uesp.net/w/index.php?title=Special:RecentChanges&amp;feed=atom">
-<link rel="stylesheet" href="Chuna_files/load_002.css">
-<!--[if IE 6]><link rel="stylesheet" href="/w/skins/uespmonobook/IE60Fixes.css?303" media="screen" /><![endif]-->
-<!--[if IE 7]><link rel="stylesheet" href="/w/skins/uespmonobook/IE70Fixes.css?303" media="screen" /><![endif]--><style>
-.mw-collapsible-toggle{float:right;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}.mw-customtoggle,.mw-collapsible-toggle{cursor:pointer} caption .mw-collapsible-toggle{float:none} li .mw-collapsible-toggle{float:none} .mw-collapsible-toggle-li{list-style:none}
-/* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:869aa9133c31e6040d4830b259da96a8 */
-.suggestions{overflow:hidden;position:absolute;top:0;left:0;width:0;border:none;z-index:1099;padding:0;margin:-1px 0 0 0}.suggestions-special{position:relative;background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0;margin-top:-2px;display:none;padding:0.25em 0.25em;line-height:1.25em}.suggestions-results{background-color:white;cursor:pointer;border:solid 1px #aaaaaa;padding:0;margin:0}.suggestions-result{color:black;margin:0;line-height:1.5em;padding:0.01em 0.25em;text-align:left; overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}.suggestions-result-current{background-color:#4C59A6;color:white}.suggestions-special .special-label{color:gray;text-align:left}.suggestions-special .special-query{color:black;font-style:italic;text-align:left}.suggestions-special .special-hover{background-color:silver}.suggestions-result-current .special-label,.suggestions-result-current .special-query{color:white}.highlight{font-weight:bold}
-/* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:f8d0c6895ce3ae14434c16b8fca59432 */
-.postedit-container{margin:0 auto;position:fixed;top:0;height:0;left:50%;z-index:1000;font-size:13px}.postedit-container:hover{cursor:pointer}.postedit{position:relative;top:0.6em;left:-50%;padding:.6em 3.6em .6em 1.1em;line-height:1.5625em;color:#626465;background-color:#f4f4f4;border:1px solid #dcd9d9;text-shadow:0 0.0625em 0 rgba(255,255,255,0.5);border-radius:5px;box-shadow:0 2px 5px 0 #ccc;-webkit-transition:all 0.25s ease-in-out;-moz-transition:all 0.25s ease-in-out;-ms-transition:all 0.25s ease-in-out;-o-transition:all 0.25s ease-in-out;transition:all 0.25s ease-in-out}.skin-monobook .postedit{top:6em !important}.postedit-faded{opacity:0}.postedit-icon{padding-left:41px;  line-height:25px;background-repeat:no-repeat;background-position:8px 50%}.postedit-icon-checkmark{background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9QgDdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9WiTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpENmvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/yFeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMAAQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ejt8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVgKgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceTL/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);background-image:url(https://en.uesp.net/w/resources/src/mediawiki.action/images/green-checkmark.png?2015-12-21T01:01:40Z)!ie;background-position:left}.postedit-close{position:absolute;padding:0 .8em;right:0;top:0;font-size:1.25em;font-weight:bold;line-height:2.3em;color:black;text-shadow:0 0.0625em 0 white;text-decoration:none;opacity:0.2;filter:alpha(opacity=20)}.postedit-close:hover{color:black;text-decoration:none;opacity:0.4;filter:alpha(opacity=40)}
-/* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:691d04cb5eb6d5a168cdcd4c623bc033 */</style><style>
-.suggestions a.mw-searchSuggest-link,.suggestions a.mw-searchSuggest-link:hover,.suggestions a.mw-searchSuggest-link:active,.suggestions a.mw-searchSuggest-link:focus{color:black;text-decoration:none}.suggestions-result-current a.mw-searchSuggest-link,.suggestions-result-current a.mw-searchSuggest-link:hover,.suggestions-result-current a.mw-searchSuggest-link:active,.suggestions-result-current a.mw-searchSuggest-link:focus{color:white}.suggestions a.mw-searchSuggest-link .special-query{ overflow:hidden;-o-text-overflow:ellipsis; text-overflow:ellipsis;white-space:nowrap}
-/* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:ae3fa4570b5ac0c6cf7b3776c8ae4d6f */</style><meta name="ResourceLoaderDynamicStyles" content="">
-<link rel="stylesheet" href="Chuna_files/load.css">
-<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
-/* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:a465ef8d0dbdf938c7291fff7d467084 */</style>
-<script src="Chuna_files/cbgapi.loaded_1" async=""></script><script src="Chuna_files/cbgapi.loaded_0" async=""></script><script async="" src="Chuna_files/beacon.js"></script><script type="text/javascript" async="" src="Chuna_files/plusone.js" gapi_processed="true"></script><script async="" src="Chuna_files/analytics.js"></script><script src="Chuna_files/load_002.php"></script><script src="Chuna_files/load_003.php"></script>
-<script>if(window.mw){
-mw.config.set({"wgCanonicalNamespace":"Morrowind","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":110,"wgPageName":"Morrowind:Chuna","wgTitle":"Chuna","wgCurRevisionId":1450108,"wgRevisionId":1450108,"wgArticleId":40995,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Morrowind-NPCs","Morrowind-Argonian","Morrowind-Argonian-Male","Morrowind-Male NPCs","Morrowind-Bard","Morrowind-Level 3 NPCs","Morrowind-MWOP-NPC-Requires Final Review"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Morrowind:Chuna","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[]});
-}</script><script>if(window.mw){
-mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"uespmonobook","stubthreshold":0,"thumbsize":3,"underline":2,"uselivepreview":0,"usenewrc":0,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0
-,"wllimit":250,"useeditwarning":1,"prefershttps":1,"uespsearchtitles":1,"uespsearchredirects":1,"uespsearchtalk":1,"hideuserspace":0,"usecustomns":0,"userspaceunpatrolled":0,"userspacewatchlist":1,"userspaceownpage":1,"userspaceownedit":1,"userspaceanonedit":0,"userspacewarning":0,"userspacetalk":0,"userspacelogs":0,"rcNs0":1,"rcNs1":1,"rcNs2":1,"rcNs3":1,"rcNs4":1,"rcNs5":1,"rcNs6":1,"rcNs7":1,"rcNs8":1,"rcNs9":1,"rcNs10":1,"rcNs11":1,"rcNs12":1,"rcNs13":1,"rcNs14":1,"rcNs15":1,"rcNs100":1,"rcNs101":1,"rcNs102":1,"rcNs103":1,"rcNs104":1,"rcNs105":1,"rcNs106":1,"rcNs107":1,"rcNs108":1,"rcNs109":1,"rcNs110":1,"rcNs111":1,"rcNs112":1,"rcNs113":1,"rcNs114":1,"rcNs115":1,"rcNs116":1,"rcNs117":1,"rcNs118":1,"rcNs119":1,"rcNs120":1,"rcNs121":1,"rcNs122":1,"rcNs123":1,"rcNs124":1,"rcNs125":1,"rcNs126":1,"rcNs127":1,"rcNs128":1,"rcNs129":1,"rcNs130":1,"rcNs131":1,"rcNs132":1,"rcNs133":1,"rcNs134":1,"rcNs135":1,"rcNs136":1,"rcNs137":1,"rcNs138":1,"rcNs139":1,"rcNs140":1,"rcNs141":1,"rcNs142":1,
-"rcNs143":1,"rcNs144":1,"rcNs145":1,"rcNs146":1,"rcNs147":1,"rcNs148":1,"rcNs149":1,"rcNs150":1,"rcNs151":1,"rcNs152":1,"rcNs153":1,"rcNs200":1,"rcNs201":1,"rcNs710":1,"rcNs711":1,"rcNsTalk":1,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs100":false,"searchNs101":false,"searchNs102":true,"searchNs103":false,"searchNs104":true,"searchNs105":false,"searchNs106":true,"searchNs107":false,"searchNs108":true,"searchNs109":false,"searchNs110":true,"searchNs111":false,"searchNs112":true,"searchNs113":false,"searchNs114":true,"searchNs115":false,"searchNs116":true,
-"searchNs117":false,"searchNs118":true,"searchNs119":false,"searchNs120":true,"searchNs121":false,"searchNs122":true,"searchNs123":false,"searchNs124":true,"searchNs125":false,"searchNs126":true,"searchNs127":false,"searchNs128":true,"searchNs129":false,"searchNs130":true,"searchNs131":false,"searchNs132":true,"searchNs133":false,"searchNs134":true,"searchNs135":false,"searchNs136":true,"searchNs137":false,"searchNs138":true,"searchNs139":false,"searchNs140":true,"searchNs141":false,"searchNs142":true,"searchNs143":false,"searchNs144":true,"searchNs145":false,"searchNs146":true,"searchNs147":false,"searchNs148":true,"searchNs149":false,"searchNs150":true,"searchNs151":false,"searchNs152":true,"searchNs153":false,"searchNs200":false,"searchNs201":false,"searchNs710":false,"searchNs711":false,"gadget-Discord":1,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
-/* cache key: uesp_net_wiki5:resourceloader:filter:minify-js:7:3c5db6ec047b164fb8f2ec6e48d53810 */
-}</script>
-<script>if(window.mw){
-mw.loader.load(["ext.UespCustomCode.ad.scripts","ext.EsoItemLink.scripts","ext.EsoSkills.scripts","ext.EsoSkills.scripts2","ext.LegendCards.scripts","mediawiki.page.startup","mediawiki.legacy.wikibits","mediawiki.legacy.ajax"]);
-}</script><script src="Chuna_files/load_004.php"></script><script id="factorem" src="Chuna_files/cdmfactorem_min.js" type="text/javascript"></script>
-		<link rel="canonical" href="http://www.uesp.net/wiki/Morrowind:Chuna">
+<html dir="ltr" class="client-js" lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title>Morrowind:Chuna - The Unofficial Elder Scrolls Pages (UESP)</title>
+    <meta name="generator" content="MediaWiki 1.24.6">
+    <link rel="alternate" type="application/x-wiki" title="Edit"
+          href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=edit">
+    <link rel="edit" title="Edit" href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=edit">
+    <link rel="shortcut icon" href="https://en.uesp.net/favicon.ico">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://en.uesp.net/w/opensearch_desc.php"
+          title="UESPWiki (en)">
+    <link rel="EditURI" type="application/rsd+xml" href="https://en.uesp.net/w/api.php?action=rsd">
+    <link rel="alternate" hreflang="x-default" href="https://en.uesp.net/wiki/Morrowind:Chuna">
+    <link rel="copyright" href="https://en.uesp.net/wiki/UESPWiki:Copyright_and_Ownership">
+    <link rel="alternate" type="application/atom+xml" title="UESPWiki Atom feed"
+          href="https://en.uesp.net/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+    <link rel="stylesheet" href="Chuna_files/load_002.css">
+    <!--[if IE 6]>
+    <link rel="stylesheet" href="/w/skins/uespmonobook/IE60Fixes.css?303" media="screen"/><![endif]-->
+    <!--[if IE 7]>
+    <link rel="stylesheet" href="/w/skins/uespmonobook/IE70Fixes.css?303" media="screen"/><![endif]-->
+    <style>
+        .mw-collapsible-toggle {
+            float: right;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none
+        }
 
-<script src="Chuna_files/prebid-1.js" async=""></script><script src="Chuna_files/apstag.js" async=""></script><script src="Chuna_files/gpt.js" async=""></script><script data-client-id="aDMTWFGqpPYIhjB" src="Chuna_files/2.js" async=""></script><link rel="preload" href="Chuna_files/integrator.js" as="script"><script type="text/javascript" src="Chuna_files/integrator.js"></script><script src="Chuna_files/pubads_impl_306.js" async=""></script></head>
+        .mw-customtoggle, .mw-collapsible-toggle {
+            cursor: pointer
+        }
+
+        caption .mw-collapsible-toggle {
+            float: none
+        }
+
+        li .mw-collapsible-toggle {
+            float: none
+        }
+
+        .mw-collapsible-toggle-li {
+            list-style: none
+        }
+
+        /* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:869aa9133c31e6040d4830b259da96a8 */
+        .suggestions {
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            border: none;
+            z-index: 1099;
+            padding: 0;
+            margin: -1px 0 0 0
+        }
+
+        .suggestions-special {
+            position: relative;
+            background-color: white;
+            cursor: pointer;
+            border: solid 1px #aaaaaa;
+            padding: 0;
+            margin: 0;
+            margin-top: -2px;
+            display: none;
+            padding: 0.25em 0.25em;
+            line-height: 1.25em
+        }
+
+        .suggestions-results {
+            background-color: white;
+            cursor: pointer;
+            border: solid 1px #aaaaaa;
+            padding: 0;
+            margin: 0
+        }
+
+        .suggestions-result {
+            color: black;
+            margin: 0;
+            line-height: 1.5em;
+            padding: 0.01em 0.25em;
+            text-align: left;
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        .suggestions-result-current {
+            background-color: #4C59A6;
+            color: white
+        }
+
+        .suggestions-special .special-label {
+            color: gray;
+            text-align: left
+        }
+
+        .suggestions-special .special-query {
+            color: black;
+            font-style: italic;
+            text-align: left
+        }
+
+        .suggestions-special .special-hover {
+            background-color: silver
+        }
+
+        .suggestions-result-current .special-label, .suggestions-result-current .special-query {
+            color: white
+        }
+
+        .highlight {
+            font-weight: bold
+        }
+
+        /* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:f8d0c6895ce3ae14434c16b8fca59432 */
+        .postedit-container {
+            margin: 0 auto;
+            position: fixed;
+            top: 0;
+            height: 0;
+            left: 50%;
+            z-index: 1000;
+            font-size: 13px
+        }
+
+        .postedit-container:hover {
+            cursor: pointer
+        }
+
+        .postedit {
+            position: relative;
+            top: 0.6em;
+            left: -50%;
+            padding: .6em 3.6em .6em 1.1em;
+            line-height: 1.5625em;
+            color: #626465;
+            background-color: #f4f4f4;
+            border: 1px solid #dcd9d9;
+            text-shadow: 0 0.0625em 0 rgba(255, 255, 255, 0.5);
+            border-radius: 5px;
+            box-shadow: 0 2px 5px 0 #ccc;
+            -webkit-transition: all 0.25s ease-in-out;
+            -moz-transition: all 0.25s ease-in-out;
+            -ms-transition: all 0.25s ease-in-out;
+            -o-transition: all 0.25s ease-in-out;
+            transition: all 0.25s ease-in-out
+        }
+
+        .skin-monobook .postedit {
+            top: 6em !important
+        }
+
+        .postedit-faded {
+            opacity: 0
+        }
+
+        .postedit-icon {
+            padding-left: 41px;
+            line-height: 25px;
+            background-repeat: no-repeat;
+            background-position: 8px 50%
+        }
+
+        .postedit-icon-checkmark {
+            background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAABblBMVEUAAAD///////9PfTf///80aRdTgjn///9Feij///////////9Rfzf///////////9PfjZRgDh1o1xOfTb///////+bwYqLtnj///////9PfTa82K////9WhT6YxIL///9QgDdTgzr////////j7uDl7eLq8efi693k7OH///////9UhjuBr2rp9uRUhjr///9YljVKgir///9WiTlYjT3////9/v57vFlbkT5PjC9dlD/5/fhuq09stUTs9uhxuElctCpfnT1huDFloEZloUZmpENmvDZpvDxpvTxqvjxrvT5rvT9rwTxsqktswD5uwkBvuUdxw0NztFBztU9ztVBzwkp0tlJ1xkd2t1R3uVR4w1F4xk54x014yE15uVZ5v1R5xVB6v1R7yFJ8wVh9xVl9yFR9yVd9ylN+xVh+yFd/x1l/yFeAylmEx1+Ny2uY0Hqe04Wj1Ymv3Ze33qLD47TJ5L3O6cPU7Mrq9eb2+/Q4j37OAAAAQHRSTlMAAQIEBAUFBQwPFB4fJCUoKiosQEhJS01RUlZZXmdydXaChYuSlJSWmJmoq6uur8LExcvM19fg5ejt8fX2+Pr7SljgewAAAKpJREFUGBkFwQNCAwAAAMDLtl3LtrG4rWXbtvX77gAgZ6grFwC0bhwNVgKgdPZx8b0dgLi+s7Wn0VoAqpfOI9+BNADZI7fLrz2pSEwGHZuH+78lSK8ZLkLezF3ooyUG3VPXq2USei9WngeyoG195yBYWDF3E/2pAhl1e9Gr8bGT+bfOFCC2fnvh4X7rcqIAQNNu+HT6sxkAjceTL/2ZAIhv+PorBwBJxfkA//dFHSCBy/UTAAAAAElFTkSuQmCC);
+            background-image: url(https://en.uesp.net/w/resources/src/mediawiki.action/images/green-checkmark.png?2015-12-21T01:01:40Z) !ie;
+            background-position: left
+        }
+
+        .postedit-close {
+            position: absolute;
+            padding: 0 .8em;
+            right: 0;
+            top: 0;
+            font-size: 1.25em;
+            font-weight: bold;
+            line-height: 2.3em;
+            color: black;
+            text-shadow: 0 0.0625em 0 white;
+            text-decoration: none;
+            opacity: 0.2;
+            filter: alpha(opacity=20)
+        }
+
+        .postedit-close:hover {
+            color: black;
+            text-decoration: none;
+            opacity: 0.4;
+            filter: alpha(opacity=40)
+        }
+
+        /* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:691d04cb5eb6d5a168cdcd4c623bc033 */</style>
+    <style>
+        .suggestions a.mw-searchSuggest-link, .suggestions a.mw-searchSuggest-link:hover, .suggestions a.mw-searchSuggest-link:active, .suggestions a.mw-searchSuggest-link:focus {
+            color: black;
+            text-decoration: none
+        }
+
+        .suggestions-result-current a.mw-searchSuggest-link, .suggestions-result-current a.mw-searchSuggest-link:hover, .suggestions-result-current a.mw-searchSuggest-link:active, .suggestions-result-current a.mw-searchSuggest-link:focus {
+            color: white
+        }
+
+        .suggestions a.mw-searchSuggest-link .special-query {
+            overflow: hidden;
+            -o-text-overflow: ellipsis;
+            text-overflow: ellipsis;
+            white-space: nowrap
+        }
+
+        /* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:ae3fa4570b5ac0c6cf7b3776c8ae4d6f */</style>
+    <meta name="ResourceLoaderDynamicStyles" content="">
+    <link rel="stylesheet" href="Chuna_files/load.css">
+    <style>a:lang(ar), a:lang(kk-arab), a:lang(mzn), a:lang(ps), a:lang(ur) {
+        text-decoration: none
+    }
+
+    /* cache key: uesp_net_wiki5:resourceloader:filter:minify-css:7:a465ef8d0dbdf938c7291fff7d467084 */</style>
+    <--!css for jquery UI lnolting -->
+    <link rel="stylesheet" href="./libs/jquery-ui-1.12.1.custom/jquery-ui.min.css">
+    <script src="Chuna_files/cbgapi.loaded_1" async=""></script>
+    <script src="Chuna_files/cbgapi.loaded_0" async=""></script>
+    <script async="" src="Chuna_files/beacon.js"></script>
+    <script type="text/javascript" async="" src="Chuna_files/plusone.js" gapi_processed="true"></script>
+    <script async="" src="Chuna_files/analytics.js"></script>
+    <script src="Chuna_files/load_002.php"></script>
+    <script src="Chuna_files/load_003.php"></script>
+    <script>if (window.mw) {
+        mw.config.set({
+            "wgCanonicalNamespace": "Morrowind",
+            "wgCanonicalSpecialPageName": false,
+            "wgNamespaceNumber": 110,
+            "wgPageName": "Morrowind:Chuna",
+            "wgTitle": "Chuna",
+            "wgCurRevisionId": 1450108,
+            "wgRevisionId": 1450108,
+            "wgArticleId": 40995,
+            "wgIsArticle": true,
+            "wgIsRedirect": false,
+            "wgAction": "view",
+            "wgUserName": null,
+            "wgUserGroups": ["*"],
+            "wgCategories": ["Morrowind-NPCs", "Morrowind-Argonian", "Morrowind-Argonian-Male", "Morrowind-Male NPCs", "Morrowind-Bard", "Morrowind-Level 3 NPCs", "Morrowind-MWOP-NPC-Requires Final Review"],
+            "wgBreakFrames": false,
+            "wgPageContentLanguage": "en",
+            "wgPageContentModel": "wikitext",
+            "wgSeparatorTransformTable": ["", ""],
+            "wgDigitTransformTable": ["", ""],
+            "wgDefaultDateFormat": "dmy",
+            "wgMonthNames": ["", "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+            "wgMonthNamesShort": ["", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+            "wgRelevantPageName": "Morrowind:Chuna",
+            "wgIsProbablyEditable": true,
+            "wgRestrictionEdit": [],
+            "wgRestrictionMove": []
+        });
+    }</script>
+    <script>if (window.mw) {
+        mw.loader.implement("user.options", function ($, jQuery) {
+            mw.user.options.set({
+                "ccmeonemails": 0,
+                "cols": 80,
+                "date": "default",
+                "diffonly": 0,
+                "disablemail": 0,
+                "editfont": "default",
+                "editondblclick": 0,
+                "editsectiononrightclick": 0,
+                "enotifminoredits": 0,
+                "enotifrevealaddr": 0,
+                "enotifusertalkpages": 1,
+                "enotifwatchlistpages": 1,
+                "extendwatchlist": 0,
+                "fancysig": 0,
+                "forceeditsummary": 0,
+                "gender": "unknown",
+                "hideminor": 0,
+                "hidepatrolled": 0,
+                "imagesize": 2,
+                "math": 1,
+                "minordefault": 0,
+                "newpageshidepatrolled": 0,
+                "nickname": "",
+                "norollbackdiff": 0,
+                "numberheadings": 0,
+                "previewonfirst": 0,
+                "previewontop": 1,
+                "rcdays": 7,
+                "rclimit": 50,
+                "rows": 25,
+                "showhiddencats": 0,
+                "shownumberswatching": 1,
+                "showtoolbar": 1,
+                "skin": "uespmonobook",
+                "stubthreshold": 0,
+                "thumbsize": 3,
+                "underline": 2,
+                "uselivepreview": 0,
+                "usenewrc": 0,
+                "watchcreations": 1,
+                "watchdefault": 1,
+                "watchdeletion": 0,
+                "watchlistdays": 3,
+                "watchlisthideanons": 0,
+                "watchlisthidebots": 0,
+                "watchlisthideliu": 0,
+                "watchlisthideminor": 0,
+                "watchlisthideown": 0,
+                "watchlisthidepatrolled": 0,
+                "watchmoves": 0,
+                "watchrollback": 0
+                ,
+                "wllimit": 250,
+                "useeditwarning": 1,
+                "prefershttps": 1,
+                "uespsearchtitles": 1,
+                "uespsearchredirects": 1,
+                "uespsearchtalk": 1,
+                "hideuserspace": 0,
+                "usecustomns": 0,
+                "userspaceunpatrolled": 0,
+                "userspacewatchlist": 1,
+                "userspaceownpage": 1,
+                "userspaceownedit": 1,
+                "userspaceanonedit": 0,
+                "userspacewarning": 0,
+                "userspacetalk": 0,
+                "userspacelogs": 0,
+                "rcNs0": 1,
+                "rcNs1": 1,
+                "rcNs2": 1,
+                "rcNs3": 1,
+                "rcNs4": 1,
+                "rcNs5": 1,
+                "rcNs6": 1,
+                "rcNs7": 1,
+                "rcNs8": 1,
+                "rcNs9": 1,
+                "rcNs10": 1,
+                "rcNs11": 1,
+                "rcNs12": 1,
+                "rcNs13": 1,
+                "rcNs14": 1,
+                "rcNs15": 1,
+                "rcNs100": 1,
+                "rcNs101": 1,
+                "rcNs102": 1,
+                "rcNs103": 1,
+                "rcNs104": 1,
+                "rcNs105": 1,
+                "rcNs106": 1,
+                "rcNs107": 1,
+                "rcNs108": 1,
+                "rcNs109": 1,
+                "rcNs110": 1,
+                "rcNs111": 1,
+                "rcNs112": 1,
+                "rcNs113": 1,
+                "rcNs114": 1,
+                "rcNs115": 1,
+                "rcNs116": 1,
+                "rcNs117": 1,
+                "rcNs118": 1,
+                "rcNs119": 1,
+                "rcNs120": 1,
+                "rcNs121": 1,
+                "rcNs122": 1,
+                "rcNs123": 1,
+                "rcNs124": 1,
+                "rcNs125": 1,
+                "rcNs126": 1,
+                "rcNs127": 1,
+                "rcNs128": 1,
+                "rcNs129": 1,
+                "rcNs130": 1,
+                "rcNs131": 1,
+                "rcNs132": 1,
+                "rcNs133": 1,
+                "rcNs134": 1,
+                "rcNs135": 1,
+                "rcNs136": 1,
+                "rcNs137": 1,
+                "rcNs138": 1,
+                "rcNs139": 1,
+                "rcNs140": 1,
+                "rcNs141": 1,
+                "rcNs142": 1,
+                "rcNs143": 1,
+                "rcNs144": 1,
+                "rcNs145": 1,
+                "rcNs146": 1,
+                "rcNs147": 1,
+                "rcNs148": 1,
+                "rcNs149": 1,
+                "rcNs150": 1,
+                "rcNs151": 1,
+                "rcNs152": 1,
+                "rcNs153": 1,
+                "rcNs200": 1,
+                "rcNs201": 1,
+                "rcNs710": 1,
+                "rcNs711": 1,
+                "rcNsTalk": 1,
+                "language": "en",
+                "variant-gan": "gan",
+                "variant-iu": "iu",
+                "variant-kk": "kk",
+                "variant-ku": "ku",
+                "variant-shi": "shi",
+                "variant-sr": "sr",
+                "variant-tg": "tg",
+                "variant-uz": "uz",
+                "variant-zh": "zh",
+                "searchNs0": true,
+                "searchNs1": false,
+                "searchNs2": false,
+                "searchNs3": false,
+                "searchNs4": false,
+                "searchNs5": false,
+                "searchNs6": false,
+                "searchNs7": false,
+                "searchNs8": false,
+                "searchNs9": false,
+                "searchNs10": false,
+                "searchNs11": false,
+                "searchNs12": false,
+                "searchNs13": false,
+                "searchNs14": false,
+                "searchNs15": false,
+                "searchNs100": false,
+                "searchNs101": false,
+                "searchNs102": true,
+                "searchNs103": false,
+                "searchNs104": true,
+                "searchNs105": false,
+                "searchNs106": true,
+                "searchNs107": false,
+                "searchNs108": true,
+                "searchNs109": false,
+                "searchNs110": true,
+                "searchNs111": false,
+                "searchNs112": true,
+                "searchNs113": false,
+                "searchNs114": true,
+                "searchNs115": false,
+                "searchNs116": true,
+                "searchNs117": false,
+                "searchNs118": true,
+                "searchNs119": false,
+                "searchNs120": true,
+                "searchNs121": false,
+                "searchNs122": true,
+                "searchNs123": false,
+                "searchNs124": true,
+                "searchNs125": false,
+                "searchNs126": true,
+                "searchNs127": false,
+                "searchNs128": true,
+                "searchNs129": false,
+                "searchNs130": true,
+                "searchNs131": false,
+                "searchNs132": true,
+                "searchNs133": false,
+                "searchNs134": true,
+                "searchNs135": false,
+                "searchNs136": true,
+                "searchNs137": false,
+                "searchNs138": true,
+                "searchNs139": false,
+                "searchNs140": true,
+                "searchNs141": false,
+                "searchNs142": true,
+                "searchNs143": false,
+                "searchNs144": true,
+                "searchNs145": false,
+                "searchNs146": true,
+                "searchNs147": false,
+                "searchNs148": true,
+                "searchNs149": false,
+                "searchNs150": true,
+                "searchNs151": false,
+                "searchNs152": true,
+                "searchNs153": false,
+                "searchNs200": false,
+                "searchNs201": false,
+                "searchNs710": false,
+                "searchNs711": false,
+                "gadget-Discord": 1,
+                "variant": "en"
+            });
+        }, {}, {});
+        mw.loader.implement("user.tokens", function ($, jQuery) {
+            mw.user.tokens.set({"editToken": "+\\", "patrolToken": "+\\", "watchToken": "+\\"});
+        }, {}, {});
+        /* cache key: uesp_net_wiki5:resourceloader:filter:minify-js:7:3c5db6ec047b164fb8f2ec6e48d53810 */
+    }</script>
+    <script>if (window.mw) {
+        mw.loader.load(["ext.UespCustomCode.ad.scripts", "ext.EsoItemLink.scripts", "ext.EsoSkills.scripts", "ext.EsoSkills.scripts2", "ext.LegendCards.scripts", "mediawiki.page.startup", "mediawiki.legacy.wikibits", "mediawiki.legacy.ajax"]);
+    }</script>
+    <script src="Chuna_files/load_004.php"></script>
+    <script id="factorem" src="Chuna_files/cdmfactorem_min.js" type="text/javascript"></script>
+    <link rel="canonical" href="http://www.uesp.net/wiki/Morrowind:Chuna">
+
+    <script src="Chuna_files/prebid-1.js" async=""></script>
+    <script src="Chuna_files/apstag.js" async=""></script>
+    <script src="Chuna_files/gpt.js" async=""></script>
+    <script data-client-id="aDMTWFGqpPYIhjB" src="Chuna_files/2.js" async=""></script>
+    <link rel="preload" href="Chuna_files/integrator.js" as="script">
+    <script type="text/javascript" src="Chuna_files/integrator.js"></script>
+    <script src="Chuna_files/pubads_impl_306.js" async=""></script>
+    <script src="./libs/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script src="./libs/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
+    <script src="./lucasJS/lucas.js"></script>
+</head>
 <body class="mediawiki ltr sitedir-ltr ns-110 ns-subject page-Morrowind_Chuna skin-uespmonobook action-view">
 <div id="globalWrapper">
-	<div id="column-content"><div id="content" class="mw-body-primary" role="main">
-	<!-- BEGIN UESP Top Ad-->
-		<div id="topad"><div class="center" id="uespTopBannerAd">
-			<div id="cdm-zone-01"></div>
-		</div></div>
-<!-- END UESP -->
-		<a id="top"></a>
-			
-		<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Morrowind:Chuna</span></h1>
-		<div id="bodyContent" class="mw-body">
-			<div id="siteSub">The UESPWiki – Your source for The Elder Scrolls since 1995</div>
-			<div id="contentSub"><span class="subpages">&lt;&nbsp;<a href="https://en.uesp.net/wiki/Morrowind:Morrowind" title="Morrowind:Morrowind">Morrowind</a>: <a href="https://en.uesp.net/wiki/Morrowind:People" title="Morrowind:People">People</a></span></div>
-				<div id="jump-to-nav" class="mw-jump">Jump to: <a href="#column-one">navigation</a>, <a href="#searchInput">search</a></div>
-	
-			<!-- start content -->
-	<div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en"><table class="wikitable infobox" style="width:33%">
-<tbody><tr>
-<th colspan="4" class="racecolor1 racecolor1-arg">Chuna<span style="font-size: x-small">&nbsp;(chuna)</span></th>
-</tr>
-<tr>
-<th>Home&nbsp;City</th>
-<td colspan="3"><a href="https://en.uesp.net/wiki/Morrowind:Balmora" title="Morrowind:Balmora">Balmora</a></td>
-</tr>
-<tr>
-<th>Location</th>
-<td colspan="3"><a href="https://en.uesp.net/wiki/Morrowind:Lucky_Lockup" title="Morrowind:Lucky Lockup">Lucky Lockup</a></td>
-</tr>
-<tr>
-<th>Race</th>
-<td><a href="https://en.uesp.net/wiki/Morrowind:Argonian" title="Morrowind:Argonian">Argonian</a></td>
-<th>Gender</th>
-<td>Male</td>
-</tr>
-<tr>
-<th>Level</th>
-<td>3</td>
-<th>Class</th>
-<td><a href="https://en.uesp.net/wiki/Morrowind:Bard" title="Morrowind:Bard" class="mw-redirect">Bard</a></td>
-</tr>
-<tr>
-<th colspan="4" class="racecolor2 racecolor2-arg">Other Information</th>
-</tr>
-<tr>
-<th><a href="https://en.uesp.net/wiki/Morrowind:Health" title="Morrowind:Health">Health</a></th>
-<td>46</td>
-<th><a href="https://en.uesp.net/wiki/Morrowind:Magicka" title="Morrowind:Magicka">Magicka</a></th>
-<td>108</td>
-</tr>
-<tr>
-<th><a href="https://en.uesp.net/wiki/Morrowind:Alarm" title="Morrowind:Alarm" class="mw-redirect">Alarm</a></th>
-<td>90</td>
-<th><a href="https://en.uesp.net/wiki/Morrowind:Fight" title="Morrowind:Fight" class="mw-redirect">Fight</a></th>
-<td>30</td>
-</tr>
-</tbody></table>
-<div class="thumb tleft">
-<div class="thumbinner" style="width:202px;"><a href="https://en.uesp.net/wiki/File:MW-npc-Chuna.jpg" class="image"><img alt="" src="Chuna_files/200px-MW-npc-Chuna.jpg" class="thumbimage" srcset="//images.uesp.net//thumb/e/ed/MW-npc-Chuna.jpg/300px-MW-npc-Chuna.jpg 1.5x, //images.uesp.net//thumb/e/ed/MW-npc-Chuna.jpg/400px-MW-npc-Chuna.jpg 2x" width="200" height="200"></a>
-<div class="thumbcaption">
-<div class="magnify"><a href="https://en.uesp.net/wiki/File:MW-npc-Chuna.jpg" class="internal" title="Enlarge"></a></div>
-Chuna</div>
+    <div id="column-content">
+        <div id="content" class="mw-body-primary" role="main">
+            <!-- BEGIN UESP Top Ad-->
+            <div id="topad">
+                <div class="center" id="uespTopBannerAd">
+                    <div id="cdm-zone-01"></div>
+                </div>
+            </div>
+            <!-- END UESP -->
+            <a id="top"></a>
+
+            <h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Morrowind:Chuna</span></h1>
+            <div id="bodyContent" class="mw-body">
+                <div id="siteSub">The UESPWiki – Your source for The Elder Scrolls since 1995</div>
+                <div id="contentSub"><span class="subpages">&lt;&nbsp;<a
+                        href="https://en.uesp.net/wiki/Morrowind:Morrowind"
+                        title="Morrowind:Morrowind">Morrowind</a>: <a href="https://en.uesp.net/wiki/Morrowind:People"
+                                                                      title="Morrowind:People">People</a></span></div>
+                <div id="jump-to-nav" class="mw-jump">Jump to: <a href="#column-one">navigation</a>, <a
+                        href="#searchInput">search</a></div>
+
+                <!-- start content -->
+                <div id="mw-content-text" dir="ltr" class="mw-content-ltr" lang="en">
+                    <table class="wikitable infobox" style="width:33%">
+                        <tbody>
+                        <tr>
+                            <th colspan="4" class="racecolor1 racecolor1-arg">Chuna<span style="font-size: x-small">&nbsp;(chuna)</span>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>Home&nbsp;City</th>
+                            <td colspan="3"><a href="https://en.uesp.net/wiki/Morrowind:Balmora"
+                                               title="A seat of power of House Redoran and later
+                                     the nominal district seat of House Hlaalu,
+                                     and the second largest settlement geographically on
+                                     Vvardenfell after Vivec.">Balmora</a></td>
+                        </tr>
+                        <tr>
+                            <th>Location</th>
+                            <td colspan="3"><a href="https://en.uesp.net/wiki/Morrowind:Lucky_Lockup"
+                                               title="A tavern offering beds in Balmora.">Lucky Lockup</a></td>
+                        </tr>
+                        <tr>
+                            <th>Race</th>
+                            <td><a href="https://en.uesp.net/wiki/Morrowind:Argonian" title="Reptilian native of Black Marsh">Argonian</a>
+                            </td>
+                            <th>Gender</th>
+                            <td>Male</td>
+                        </tr>
+                        <tr>
+                            <th>Level</th>
+                            <td>3</td>
+                            <th>Class</th>
+                            <td><a href="https://en.uesp.net/wiki/Morrowind:Bard" title="Loremasters and storytellers"
+                                   class="mw-redirect">Bard</a></td>
+                        </tr>
+                        <tr>
+                            <th colspan="4" class="racecolor2 racecolor2-arg">Other Information</th>
+                        </tr>
+                        <tr>
+                            <th><a href="https://en.uesp.net/wiki/Morrowind:Health" title="The amount of damage you can take before dying">Health</a>
+                            </th>
+                            <td>46</td>
+                            <th><a href="https://en.uesp.net/wiki/Morrowind:Magicka"
+                                   title="The energy used to cast spells">Magicka</a></th>
+                            <td>108</td>
+                        </tr>
+                        <tr>
+                            <th><a href="https://en.uesp.net/wiki/Morrowind:Alarm"
+                                   title="Indicates how strongly an NPC will respond to another person's call for help when they are the victim of a crime."
+                                   class="mw-redirect">Alarm</a></th>
+                            <td>90</td>
+                            <th><a href="https://en.uesp.net/wiki/Morrowind:Fight" title="Fight is a value between 0 and 100 that influences an NPC's (or creature's) tendency to initiate combat with you. "
+                                   class="mw-redirect">Fight</a></th>
+                            <td>30</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                    <div class="thumb tleft">
+                        <div class="thumbinner" style="width:202px;"><a
+                                href="https://en.uesp.net/wiki/File:MW-npc-Chuna.jpg" class="image"><img alt=""
+                                                                                                         src="Chuna_files/200px-MW-npc-Chuna.jpg"
+                                                                                                         class="thumbimage"
+                                                                                                         srcset="//images.uesp.net//thumb/e/ed/MW-npc-Chuna.jpg/300px-MW-npc-Chuna.jpg 1.5x, //images.uesp.net//thumb/e/ed/MW-npc-Chuna.jpg/400px-MW-npc-Chuna.jpg 2x"
+                                                                                                         width="200"
+                                                                                                         height="200"></a>
+                            <div class="thumbcaption">
+                                <div class="magnify"><a href="https://en.uesp.net/wiki/File:MW-npc-Chuna.jpg"
+                                                        class="internal" title="Enlarge"></a></div>
+                                Chuna
+                            </div>
+                        </div>
+                    </div>
+                    <p><b>Chuna</b> is an <a href="https://en.uesp.net/wiki/Morrowind:Argonian"
+                                             title="Reptilian native of Black Marsh">Argonian</a> <a
+                            href="https://en.uesp.net/wiki/Morrowind:Bard" title="Loremasters and storytellers" class="mw-redirect">bard</a>
+                        living in <a href="https://en.uesp.net/wiki/Morrowind:Balmora"
+                                     title="A seat of power of House Redoran and later
+                                     the nominal district seat of House Hlaalu,
+                                     and the second largest settlement geographically on
+                                     Vvardenfell after Vivec.">Balmora</a>. He can be found at the <a
+                                href="https://en.uesp.net/wiki/Morrowind:Lucky_Lockup"
+                                title="A tavern offering beds in Balmora.">Lucky
+                            Lockup</a>
+                        club in the Commercial District of town, where he works as an
+                        entertainer playing lute and drums on the stage. He is not performing at
+                        the moment though.</p>
+                    <p>He is wearing a <a href="https://en.uesp.net/wiki/Morrowind:Common_Shirt"
+                                          title="List of base clothing in Morrowind/Common_Shit" class="mw-redirect">common shirt</a>, with a
+                        matching <a href="https://en.uesp.net/wiki/Morrowind:Common_Belt" title="List of base clothing in Morrowind/Common Belt"
+                                    class="mw-redirect">belt</a> and <a
+                                href="https://en.uesp.net/wiki/Morrowind:Common_Pants" title="List of base clothing in Morrowind/Common Pants"
+                                class="mw-redirect">pants</a>, and he wields a <a
+                                href="https://en.uesp.net/wiki/Morrowind:Silver_Dagger" title="List of base weapons in Morrowind/Silver Dagger"
+                                class="mw-redirect">silver dagger</a>. Like all Argonians, he is <a
+                                href="https://en.uesp.net/wiki/Morrowind:Resist_Poison" title="List of Morrowind resistances/Resist Poison"
+                                class="mw-redirect">immune to poison</a>, has a <a
+                                href="https://en.uesp.net/wiki/Morrowind:Resist_Common_Disease"
+                                title="List of Morrowind resistances/Resist Common Disease">resistance to disease</a>, and can <a
+                                href="https://en.uesp.net/wiki/Morrowind:Water_Breathing"
+                                title="Allows the target to breathe under water. This allows them to stay submerged
+                                indefinitely (or at least until the spell wears off) without drowning.">breathe underwater</a>;
+                        otherwise he knows no spells.
+                    </p>
+                    <p>When asked about <i>latest rumors</i>, he will tell you: <i>"<a
+                            href="https://en.uesp.net/wiki/Morrowind:Fast_Eddie" title="A Dunmer sorcerer who can be found in his house in Balmora, on the west side of the Odai River."
+                            class="mw-redirect">Fast Eddie</a> was complaining the other day about how he was overlooked
+                        for advancement in <a href="https://en.uesp.net/wiki/Morrowind:House_Telvanni"
+                                              title="One of the Great Houses of Morrowind. It governs the Telvanni District of eastern Morrowind, and administers the eastern portion of the Vvardenfell District from its council seat in Sadrith Mora. ">House Telvanni</a>. Again."</i></p>
+
+
+                    <!--
+                    NewPP limit report
+                    CPU time usage: 0.289 seconds
+                    Real time usage: 0.322 seconds
+                    Preprocessor visited node count: 930/1000000
+                    Preprocessor generated node count: 0/1000000
+                    Post‐expand include size: 2476/8388608 bytes
+                    Template argument size: 2122/8388608 bytes
+                    Highest expansion depth: 11/40
+                    Expensive parser function count: 2/1000
+                    -->
+
+                    <!-- Saved in parser cache with key uesp_net_wiki5:pcache:idhash:40995-0!*!0!*!*!3!*! and timestamp 20190209200945 and revision id 1450108
+                     -->
+                </div>
+                <div class="printfooter">
+                    Retrieved from "<a dir="ltr"
+                                       href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;oldid=1450108">https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;oldid=1450108</a>"
+                </div>
+                <div id="catlinks" class="catlinks">
+                    <div id="mw-normal-catlinks" class="mw-normal-catlinks"><a
+                            href="https://en.uesp.net/wiki/Special:Categories" title="Special:Categories">Categories</a>:
+                        <ul>
+                            <li><a href="https://en.uesp.net/wiki/Category:Morrowind-NPCs"
+                                   title="Category:Morrowind-NPCs">Morrowind-NPCs</a></li>
+                            <li><a href="https://en.uesp.net/wiki/Category:Morrowind-Argonian"
+                                   title="Category:Morrowind-Argonian">Morrowind-Argonian</a></li>
+                            <li><a href="https://en.uesp.net/wiki/Category:Morrowind-Argonian-Male"
+                                   title="Category:Morrowind-Argonian-Male">Morrowind-Argonian-Male</a></li>
+                            <li><a href="https://en.uesp.net/wiki/Category:Morrowind-Male_NPCs"
+                                   title="Category:Morrowind-Male NPCs">Morrowind-Male NPCs</a></li>
+                            <li><a href="https://en.uesp.net/wiki/Category:Morrowind-Bard"
+                                   title="Category:Morrowind-Bard">Morrowind-Bard</a></li>
+                            <li><a href="https://en.uesp.net/wiki/Category:Morrowind-Level_3_NPCs"
+                                   title="Category:Morrowind-Level 3 NPCs">Morrowind-Level 3 NPCs</a></li>
+                        </ul>
+                    </div>
+                    <div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden category:
+                        <ul>
+                            <li><a href="https://en.uesp.net/wiki/Category:Morrowind-MWOP-NPC-Requires_Final_Review"
+                                   title="Category:Morrowind-MWOP-NPC-Requires Final Review">Morrowind-MWOP-NPC-Requires
+                                Final Review</a></li>
+                        </ul>
+                    </div>
+                </div>            <!-- end content -->
+                <div class="visualClear"></div>
+            </div>
+        </div>
+        <!-- BEGIN UESP Bottom Ad -->
+
+        <!-- Wiki_Bottom_Rectangle -->
+        <div class="center" style="margin-left: auto; margin-right: auto; margin-top: 10px;">
+            <!-- WikiBottomAnonymous -->
+            <div style="width:300px; height:250px;">
+                <div id="cdm-zone-02"></div>
+            </div>
+        </div>
+        <!-- End UESP -->
+    </div>
+    <div id="column-one">
+        <h2>Navigation menu</h2>
+        <div id="p-cactions" class="portlet" role="navigation">
+            <h3>Views</h3>
+
+            <div class="pBody">
+                <ul>
+                    <li id="ca-nstab-morrowind" class="selected"><a href="https://en.uesp.net/wiki/Morrowind:Chuna">Morrowind</a>
+                    </li>
+                    <li id="ca-talk" class="new"><a
+                            href="https://en.uesp.net/w/index.php?title=Morrowind_talk:Chuna&amp;action=edit&amp;redlink=1"
+                            title="Discussion about the content page [Alt+Shift+t]" accesskey="t">Discussion</a></li>
+                    <li id="ca-edit"><a href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=edit"
+                                        title="You can edit this page. Please use the preview button before saving [Alt+Shift+e]"
+                                        accesskey="e">Edit</a></li>
+                    <li id="ca-history"><a
+                            href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=history"
+                            rel="archives" title="Past revisions of this page [Alt+Shift+h]" accesskey="h">History</a>
+                    </li>
+                    <li id="ca-discord"><a href="http://en.uesp.net/wiki/UESPWiki:Discord">Chat</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="portlet" id="p-personal" role="navigation">
+            <h3>Personal tools</h3>
+            <div class="pBody">
+                <ul>
+                    <li id="pt-createaccount"><a
+                            href="https://en.uesp.net/w/index.php?title=Special:UserLogin&amp;returnto=Morrowind%3AChuna&amp;type=signup">Create
+                        account</a></li>
+                    <li id="pt-login"><a
+                            href="https://en.uesp.net/w/index.php?title=Special:UserLogin&amp;returnto=Morrowind%3AChuna"
+                            title="You are encouraged to log in; however, it is not mandatory [Alt+Shift+o]"
+                            accesskey="o">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="portlet" id="p-logo" role="banner">
+            <a href="https://en.uesp.net/wiki/Main_Page"
+               style="background-image: url(//images.uesp.net/4/40/NewUESPLogo1.png);" title="Visit the main page"></a>
+        </div>
+        <div id="p-search" class="portlet" role="search">
+            <h3><label for="searchInput">Search</label></h3>
+            <div id="searchBody" class="pBody">
+                <form action="/w/index.php" id="searchform">
+                    <input name="title" value="Special:Search" type="hidden">
+                    <input name="search" title="Search UESPWiki [Alt+Shift+f]" accesskey="f" id="searchInput"
+                           autocomplete="off">
+                    <button id="searchButton" title="Search UESP for this text" name="button" type="submit">
+                        <img alt="Search" src="Chuna_files/search-icon.png" width="12" height="13">
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div id="p-googleplus" class="portlet"
+             style="border: 1px solid #AAAAAA; background:#FBEFD5; margin: 0px; padding: 3px; width: 153px; overflow: hidden;">
+            <div style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent none repeat scroll 0% 0%; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 38px; height: 24px;"
+                 id="___plusone_0">
+                <iframe ng-non-bindable="" hspace="0" marginheight="0" marginwidth="0" scrolling="no"
+                        style="position: static; top: 0px; width: 38px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;"
+                        tabindex="0" vspace="0" id="I0_1550092276050" name="I0_1550092276050"
+                        src="Chuna_files/fastbutton.html" data-gapiattached="true" title="G+" width="100%"
+                        frameborder="0"></iframe>
+            </div>
+            <script type="text/javascript">
+                (function () {
+                    var po = document.createElement('script');
+                    po.type = 'text/javascript';
+                    po.async = true;
+                    po.src = 'https://apis.google.com/js/plusone.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(po, s);
+                })();
+            </script>
+        </div>
+        <div class="generated-sidebar portlet" id="p-general">
+            <h3><label>general</label></h3>
+            <div class="pBody">
+                <ul>
+                    <li id="n-mainpage"><a href="https://en.uesp.net/wiki/Main_Page"
+                                           title="Visit the main page [Alt+Shift+z]" accesskey="z">Main Page</a></li>
+                    <li id="n-Featured-Articles"><a href="https://en.uesp.net/wiki/UESPWiki:Featured_Articles">Featured
+                        Articles</a></li>
+                    <li id="n-recentchanges"><a href="https://en.uesp.net/wiki/Special:RecentChanges"
+                                                title="A list of recent changes in the wiki [Alt+Shift+r]"
+                                                accesskey="r">Recent Changes</a></li>
+                    <li id="n-randompage"><a href="https://en.uesp.net/wiki/Special:Random"
+                                             title="Load a random page [Alt+Shift+x]" accesskey="x">Random Page</a></li>
+                    <li id="n-How-to-Contribute"><a href="https://en.uesp.net/wiki/UESPWiki:Getting_Started">How to
+                        Contribute</a></li>
+                    <li id="n-help"><a href="https://en.uesp.net/wiki/Help:Contents"
+                                       title="The place to find out">Help</a></li>
+                    <li id="n-View-Mobile-Version"><a href="https://m.uesp.net/wikiredirect.php" rel="nofollow">View
+                        Mobile Version</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="generated-sidebar portlet" id="p-sections">
+            <h3><label>sections</label></h3>
+            <div class="pBody">
+                <ul>
+                    <li id="n-All-Content"><a href="https://en.uesp.net/wiki/All_Content">All Content</a></li>
+                    <li id="n-Lore"><a href="https://en.uesp.net/wiki/Lore:Main_Page">Lore</a></li>
+                    <li id="n-Blades"><a href="https://en.uesp.net/wiki/Blades:Blades">Blades</a></li>
+                    <li id="n-Legends"><a href="https://en.uesp.net/wiki/Legends:Legends">Legends</a></li>
+                    <li id="n-Elder-Scrolls-Online"><a href="https://en.uesp.net/wiki/Online:Online">Elder Scrolls
+                        Online</a></li>
+
+                    <ul>
+                        <li id="n-.2AChapters"><a href="https://en.uesp.net/wiki/Online:Chapters">Chapters</a></li>
+                        <li id="n-.2ADLC"><a href="https://en.uesp.net/wiki/Online:DLC">DLC</a></li>
+
+                    </ul>
+                    <li id="n-Skyrim"><a href="https://en.uesp.net/wiki/Skyrim:Skyrim">Skyrim</a></li>
+
+                    <ul>
+                        <li id="n-.2ADawnguard"><a href="https://en.uesp.net/wiki/Skyrim:Dawnguard">Dawnguard</a></li>
+                        <li id="n-.2ADragonborn"><a href="https://en.uesp.net/wiki/Dragonborn:Dragonborn">Dragonborn</a>
+                        </li>
+                        <li id="n-.2ASkyrim-Add-ons"><a href="https://en.uesp.net/wiki/Skyrim:Add-ons">Skyrim
+                            Add-ons</a></li>
+
+                    </ul>
+                    <li id="n-Oblivion"><a href="https://en.uesp.net/wiki/Oblivion:Oblivion">Oblivion</a></li>
+
+                    <ul>
+                        <li id="n-.2AKnights-of-the-Nine"><a
+                                href="https://en.uesp.net/wiki/Oblivion:Knights_of_the_Nine">Knights of the Nine</a>
+                        </li>
+                        <li id="n-.2AShivering-Isles"><a href="https://en.uesp.net/wiki/Shivering:Shivering_Isles">Shivering
+                            Isles</a></li>
+                        <li id="n-.2AOblivion-Downloads"><a href="https://en.uesp.net/wiki/Oblivion:Downloads">Oblivion
+                            Downloads</a></li>
+
+                    </ul>
+                    <li id="n-Morrowind"><a href="https://en.uesp.net/wiki/Morrowind:Morrowind">Morrowind</a></li>
+
+                    <ul>
+                        <li id="n-.2ATribunal"><a href="https://en.uesp.net/wiki/Tribunal:Tribunal">Tribunal</a></li>
+                        <li id="n-.2ABloodmoon"><a href="https://en.uesp.net/wiki/Bloodmoon:Bloodmoon">Bloodmoon</a>
+                        </li>
+                        <li id="n-.2AMorrowind-Plugins"><a href="https://en.uesp.net/wiki/Morrowind:Plugins">Morrowind
+                            Plugins</a></li>
+
+                    </ul>
+                    <li id="n-Redguard"><a href="https://en.uesp.net/wiki/Redguard:Redguard">Redguard</a></li>
+                    <li id="n-Battlespire"><a href="https://en.uesp.net/wiki/Battlespire:Battlespire">Battlespire</a>
+                    </li>
+                    <li id="n-Daggerfall"><a href="https://en.uesp.net/wiki/Daggerfall:Daggerfall">Daggerfall</a></li>
+                    <li id="n-Arena"><a href="https://en.uesp.net/wiki/Arena:Arena">Arena</a></li>
+                    <li id="n-TES-Travels"><a href="https://en.uesp.net/wiki/TES_Travels">TES Travels</a></li>
+                    <li id="n-Books"><a href="https://en.uesp.net/wiki/Books:Books">Books</a></li>
+                    <li id="n-General"><a href="https://en.uesp.net/wiki/General:Main_Page">General</a></li>
+                    <li id="n-Mods"><a href="https://en.uesp.net/wiki/Mods">Mods</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="generated-sidebar portlet" id="p-community">
+            <h3><label>community</label></h3>
+            <div class="pBody">
+                <ul>
+                    <li id="n-portal"><a href="https://en.uesp.net/wiki/UESPWiki:Community_Portal"
+                                         title="About the project, what you can do, where to find things">Community
+                        Portal</a></li>
+                    <li id="n-Contact-Us"><a href="https://en.uesp.net/wiki/UESPWiki:Contact">Contact Us</a></li>
+                    <li id="n-Forums"><a href="https://forums.uesp.net/" rel="nofollow">Forums</a></li>
+                    <li id="n-Blog"><a href="http://blog.uesp.net/" rel="nofollow">Blog</a></li>
+                    <li id="n-Discord"><a href="https://discord.gg/uesp" rel="nofollow">Discord</a></li>
+                    <li id="n-Facebook"><a
+                            href="https://www.facebook.com/pages/Unofficial-Elder-Scrolls-Pages/549688078398573"
+                            rel="nofollow">Facebook</a></li>
+                    <li id="n-Tumblr"><a href="http://uesp.tumblr.com/" rel="nofollow">Tumblr</a></li>
+                    <li id="n-Twitter"><a href="https://twitter.com/UESP_net" rel="nofollow">Twitter</a></li>
+                    <li id="n-Chatroom"><a href="https://en.uesp.net/wiki/UESPWiki:Discord">Chatroom</a></li>
+                    <li id="n-Links"><a href="https://en.uesp.net/wiki/General:Links">Links</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="portlet" id="p-tb" role="navigation">
+            <h3>Tools</h3>
+
+            <div class="pBody">
+                <ul>
+                    <li id="t-whatlinkshere"><a href="https://en.uesp.net/wiki/Special:WhatLinksHere/Morrowind:Chuna"
+                                                title="A list of all wiki pages that link here [Alt+Shift+j]"
+                                                accesskey="j">What Links Here</a></li>
+                    <li id="t-recentchangeslinked"><a
+                            href="https://en.uesp.net/wiki/Special:RecentChangesLinked/Morrowind:Chuna"
+                            title="Recent changes in pages linked from this page [Alt+Shift+k]" accesskey="k">Related
+                        changes</a></li>
+                    <li id="t-specialpages"><a href="https://en.uesp.net/wiki/Special:SpecialPages"
+                                               title="A list of all special pages [Alt+Shift+q]" accesskey="q">Special
+                        Pages</a></li>
+                    <li id="t-print"><a href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;printable=yes"
+                                        rel="alternate" title="Printable version of this page [Alt+Shift+p]"
+                                        accesskey="p">Printable Version</a></li>
+                    <li id="t-permalink"><a
+                            href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;oldid=1450108"
+                            title="Permanent link to this revision of the page">Permanent Link</a></li>
+                    <li id="t-info"><a href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=info">Page
+                        information</a></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div id="cdm-zone-07"></div>
+        </div>
+    </div><!-- end of the left (by default at least) column -->
+    <div class="visualClear"></div>
+    <div id="footer" role="contentinfo">
+        <div id="f-copyrightico">
+            <a href="https://en.uesp.net/wiki/UESPWiki:Copyright_and_Ownership"><img src="Chuna_files/Somerights.png"
+                                                                                     style="border: none;"
+                                                                                     alt="[Content is available under Attribution-ShareAlike]"></a>
+        </div>
+        <div id="f-poweredbyico">
+            <a href="https://www.mediawiki.org/"><img src="Chuna_files/poweredby_mediawiki_88x31.png"
+                                                      alt="Powered by MediaWiki" width="88" height="31"></a>
+        </div>
+        <ul id="f-list">
+            <li id="lastmod"> This page was last modified on 29 May 2015, at 19:50.</li>
+            <li id="copyright"><br>All content is available under the terms of the <a
+                    href="https://en.uesp.net/wiki/UESPWiki:Copyright_and_Ownership"
+                    title="UESPWiki:Copyright and Ownership">Attribution-ShareAlike 2.5 License</a>.<br></li>
+            <li id="privacy"><a href="https://en.uesp.net/wiki/UESPWiki:Privacy_Policy" title="UESPWiki:Privacy Policy">Privacy
+                Policy</a></li>
+            <li id="about"><a href="https://en.uesp.net/wiki/UESPWiki:About" title="UESPWiki:About">About UESPWiki</a>
+            </li>
+            <li id="disclaimer"><a href="https://en.uesp.net/wiki/UESPWiki:General_Disclaimer"
+                                   title="UESPWiki:General Disclaimer">Disclaimers</a></li>
+            <li id="mobileview"><a href="https://en.m.uesp.net/wiki/Morrowind:Chuna"
+                                   class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+        </ul>
+    </div>
 </div>
-</div>
-<p><b>Chuna</b> is an <a href="https://en.uesp.net/wiki/Morrowind:Argonian" title="Morrowind:Argonian">Argonian</a> <a href="https://en.uesp.net/wiki/Morrowind:Bard" title="Morrowind:Bard" class="mw-redirect">bard</a> living in <a href="https://en.uesp.net/wiki/Morrowind:Balmora" title="Morrowind:Balmora">Balmora</a>. He can be found at the <a href="https://en.uesp.net/wiki/Morrowind:Lucky_Lockup" title="Morrowind:Lucky Lockup">Lucky Lockup</a>
- club in the Commercial District of town, where he works as an 
-entertainer playing lute and drums on the stage. He is not performing at
- the moment though.</p>
-<p>He is wearing a <a href="https://en.uesp.net/wiki/Morrowind:Common_Shirt" title="Morrowind:Common Shirt" class="mw-redirect">common shirt</a>, with a matching <a href="https://en.uesp.net/wiki/Morrowind:Common_Belt" title="Morrowind:Common Belt" class="mw-redirect">belt</a> and <a href="https://en.uesp.net/wiki/Morrowind:Common_Pants" title="Morrowind:Common Pants" class="mw-redirect">pants</a>, and he wields a <a href="https://en.uesp.net/wiki/Morrowind:Silver_Dagger" title="Morrowind:Silver Dagger" class="mw-redirect">silver dagger</a>. Like all Argonians, he is <a href="https://en.uesp.net/wiki/Morrowind:Resist_Poison" title="Morrowind:Resist Poison" class="mw-redirect">immune to poison</a>, has a <a href="https://en.uesp.net/wiki/Morrowind:Resist_Common_Disease" title="Morrowind:Resist Common Disease">resistance to disease</a>, and can <a href="https://en.uesp.net/wiki/Morrowind:Water_Breathing" title="Morrowind:Water Breathing">breathe underwater</a>; otherwise he knows no spells.</p>
-<p>When asked about <i>latest rumors</i>, he will tell you: <i>"<a href="https://en.uesp.net/wiki/Morrowind:Fast_Eddie" title="Morrowind:Fast Eddie" class="mw-redirect">Fast Eddie</a> was complaining the other day about how he was overlooked for advancement in <a href="https://en.uesp.net/wiki/Morrowind:House_Telvanni" title="Morrowind:House Telvanni">House Telvanni</a>. Again."</i></p>
-
-
-<!-- 
-NewPP limit report
-CPU time usage: 0.289 seconds
-Real time usage: 0.322 seconds
-Preprocessor visited node count: 930/1000000
-Preprocessor generated node count: 0/1000000
-Post‐expand include size: 2476/8388608 bytes
-Template argument size: 2122/8388608 bytes
-Highest expansion depth: 11/40
-Expensive parser function count: 2/1000
--->
-
-<!-- Saved in parser cache with key uesp_net_wiki5:pcache:idhash:40995-0!*!0!*!*!3!*! and timestamp 20190209200945 and revision id 1450108
- -->
-</div><div class="printfooter">
-Retrieved from "<a dir="ltr" href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;oldid=1450108">https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;oldid=1450108</a>"</div>
-			<div id="catlinks" class="catlinks"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="https://en.uesp.net/wiki/Special:Categories" title="Special:Categories">Categories</a>: <ul><li><a href="https://en.uesp.net/wiki/Category:Morrowind-NPCs" title="Category:Morrowind-NPCs">Morrowind-NPCs</a></li><li><a href="https://en.uesp.net/wiki/Category:Morrowind-Argonian" title="Category:Morrowind-Argonian">Morrowind-Argonian</a></li><li><a href="https://en.uesp.net/wiki/Category:Morrowind-Argonian-Male" title="Category:Morrowind-Argonian-Male">Morrowind-Argonian-Male</a></li><li><a href="https://en.uesp.net/wiki/Category:Morrowind-Male_NPCs" title="Category:Morrowind-Male NPCs">Morrowind-Male NPCs</a></li><li><a href="https://en.uesp.net/wiki/Category:Morrowind-Bard" title="Category:Morrowind-Bard">Morrowind-Bard</a></li><li><a href="https://en.uesp.net/wiki/Category:Morrowind-Level_3_NPCs" title="Category:Morrowind-Level 3 NPCs">Morrowind-Level 3 NPCs</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden category: <ul><li><a href="https://en.uesp.net/wiki/Category:Morrowind-MWOP-NPC-Requires_Final_Review" title="Category:Morrowind-MWOP-NPC-Requires Final Review">Morrowind-MWOP-NPC-Requires Final Review</a></li></ul></div></div>			<!-- end content -->
-						<div class="visualClear"></div>
-		</div>
-	</div>
-	<!-- BEGIN UESP Bottom Ad -->
-	
-<!-- Wiki_Bottom_Rectangle -->
-<div class="center" style="margin-left: auto; margin-right: auto; margin-top: 10px;">
-<!-- WikiBottomAnonymous -->
-	<div style="width:300px; height:250px;">
-		<div id="cdm-zone-02"></div>
-	</div>
-</div>
-	<!-- End UESP -->
-	</div>
-	<div id="column-one">
-		<h2>Navigation menu</h2>
-			<div id="p-cactions" class="portlet" role="navigation">
-			<h3>Views</h3>
-
-			<div class="pBody">
-				<ul>
-				<li id="ca-nstab-morrowind" class="selected"><a href="https://en.uesp.net/wiki/Morrowind:Chuna">Morrowind</a></li>
-				<li id="ca-talk" class="new"><a href="https://en.uesp.net/w/index.php?title=Morrowind_talk:Chuna&amp;action=edit&amp;redlink=1" title="Discussion about the content page [Alt+Shift+t]" accesskey="t">Discussion</a></li>
-				<li id="ca-edit"><a href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=edit" title="You can edit this page. Please use the preview button before saving [Alt+Shift+e]" accesskey="e">Edit</a></li>
-				<li id="ca-history"><a href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=history" rel="archives" title="Past revisions of this page [Alt+Shift+h]" accesskey="h">History</a></li>
-				<li id="ca-discord"><a href="http://en.uesp.net/wiki/UESPWiki:Discord">Chat</a></li></ul>
-							</div>
-		</div>
-			<div class="portlet" id="p-personal" role="navigation">
-			<h3>Personal tools</h3>
-			<div class="pBody">
-				<ul>
-						<li id="pt-createaccount"><a href="https://en.uesp.net/w/index.php?title=Special:UserLogin&amp;returnto=Morrowind%3AChuna&amp;type=signup">Create account</a></li>	
-						<li id="pt-login"><a href="https://en.uesp.net/w/index.php?title=Special:UserLogin&amp;returnto=Morrowind%3AChuna" title="You are encouraged to log in; however, it is not mandatory [Alt+Shift+o]" accesskey="o">Log in</a></li>	
-					</ul>
-			</div>
-		</div>
-		<div class="portlet" id="p-logo" role="banner">
-	<a href="https://en.uesp.net/wiki/Main_Page" style="background-image: url(//images.uesp.net/4/40/NewUESPLogo1.png);" title="Visit the main page"></a>	
-		</div>
-		<div id="p-search" class="portlet" role="search">
-		<h3><label for="searchInput">Search</label></h3>
-		<div id="searchBody" class="pBody">
-			<form action="/w/index.php" id="searchform">
-				<input name="title" value="Special:Search" type="hidden">
-				<input name="search" title="Search UESPWiki [Alt+Shift+f]" accesskey="f" id="searchInput" autocomplete="off">
-				<button id="searchButton" title="Search UESP for this text" name="button" type="submit">
-					<img alt="Search" src="Chuna_files/search-icon.png" width="12" height="13">
-				</button>
-			</form>
-		</div>
-	</div>
-	
-	<div id="p-googleplus" class="portlet" style="border: 1px solid #AAAAAA; background:#FBEFD5; margin: 0px; padding: 3px; width: 153px; overflow: hidden;">
-		<div style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent none repeat scroll 0% 0%; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 38px; height: 24px;" id="___plusone_0"><iframe ng-non-bindable="" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 38px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 24px;" tabindex="0" vspace="0" id="I0_1550092276050" name="I0_1550092276050" src="Chuna_files/fastbutton.html" data-gapiattached="true" title="G+" width="100%" frameborder="0"></iframe></div>
-		<script type="text/javascript">
-(function() {
-	var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-	po.src = 'https://apis.google.com/js/plusone.js';
-	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-})();
-		</script>
-	</div>
-	<div class="generated-sidebar portlet" id="p-general">	
-			<h3><label>general</label></h3>
-			<div class="pBody">
-					<ul>
-						<li id="n-mainpage"><a href="https://en.uesp.net/wiki/Main_Page" title="Visit the main page [Alt+Shift+z]" accesskey="z">Main Page</a></li>	
-						<li id="n-Featured-Articles"><a href="https://en.uesp.net/wiki/UESPWiki:Featured_Articles">Featured Articles</a></li>	
-						<li id="n-recentchanges"><a href="https://en.uesp.net/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [Alt+Shift+r]" accesskey="r">Recent Changes</a></li>	
-						<li id="n-randompage"><a href="https://en.uesp.net/wiki/Special:Random" title="Load a random page [Alt+Shift+x]" accesskey="x">Random Page</a></li>	
-						<li id="n-How-to-Contribute"><a href="https://en.uesp.net/wiki/UESPWiki:Getting_Started">How to Contribute</a></li>	
-						<li id="n-help"><a href="https://en.uesp.net/wiki/Help:Contents" title="The place to find out">Help</a></li>	
-						<li id="n-View-Mobile-Version"><a href="https://m.uesp.net/wikiredirect.php" rel="nofollow">View Mobile Version</a></li>	
-					</ul>
-				</div>
-		</div>
-		<div class="generated-sidebar portlet" id="p-sections">	
-			<h3><label>sections</label></h3>
-			<div class="pBody">
-					<ul>
-						<li id="n-All-Content"><a href="https://en.uesp.net/wiki/All_Content">All Content</a></li>	
-						<li id="n-Lore"><a href="https://en.uesp.net/wiki/Lore:Main_Page">Lore</a></li>	
-						<li id="n-Blades"><a href="https://en.uesp.net/wiki/Blades:Blades">Blades</a></li>	
-						<li id="n-Legends"><a href="https://en.uesp.net/wiki/Legends:Legends">Legends</a></li>	
-						<li id="n-Elder-Scrolls-Online"><a href="https://en.uesp.net/wiki/Online:Online">Elder Scrolls Online</a></li>	
-	
-<ul>
-					<li id="n-.2AChapters"><a href="https://en.uesp.net/wiki/Online:Chapters">Chapters</a></li>	
-						<li id="n-.2ADLC"><a href="https://en.uesp.net/wiki/Online:DLC">DLC</a></li>	
-	
-</ul>
-					<li id="n-Skyrim"><a href="https://en.uesp.net/wiki/Skyrim:Skyrim">Skyrim</a></li>	
-	
-<ul>
-					<li id="n-.2ADawnguard"><a href="https://en.uesp.net/wiki/Skyrim:Dawnguard">Dawnguard</a></li>	
-						<li id="n-.2ADragonborn"><a href="https://en.uesp.net/wiki/Dragonborn:Dragonborn">Dragonborn</a></li>	
-						<li id="n-.2ASkyrim-Add-ons"><a href="https://en.uesp.net/wiki/Skyrim:Add-ons">Skyrim Add-ons</a></li>	
-	
-</ul>
-					<li id="n-Oblivion"><a href="https://en.uesp.net/wiki/Oblivion:Oblivion">Oblivion</a></li>	
-	
-<ul>
-					<li id="n-.2AKnights-of-the-Nine"><a href="https://en.uesp.net/wiki/Oblivion:Knights_of_the_Nine">Knights of the Nine</a></li>	
-						<li id="n-.2AShivering-Isles"><a href="https://en.uesp.net/wiki/Shivering:Shivering_Isles">Shivering Isles</a></li>	
-						<li id="n-.2AOblivion-Downloads"><a href="https://en.uesp.net/wiki/Oblivion:Downloads">Oblivion Downloads</a></li>	
-	
-</ul>
-					<li id="n-Morrowind"><a href="https://en.uesp.net/wiki/Morrowind:Morrowind">Morrowind</a></li>	
-	
-<ul>
-					<li id="n-.2ATribunal"><a href="https://en.uesp.net/wiki/Tribunal:Tribunal">Tribunal</a></li>	
-						<li id="n-.2ABloodmoon"><a href="https://en.uesp.net/wiki/Bloodmoon:Bloodmoon">Bloodmoon</a></li>	
-						<li id="n-.2AMorrowind-Plugins"><a href="https://en.uesp.net/wiki/Morrowind:Plugins">Morrowind Plugins</a></li>	
-	
-</ul>
-					<li id="n-Redguard"><a href="https://en.uesp.net/wiki/Redguard:Redguard">Redguard</a></li>	
-						<li id="n-Battlespire"><a href="https://en.uesp.net/wiki/Battlespire:Battlespire">Battlespire</a></li>	
-						<li id="n-Daggerfall"><a href="https://en.uesp.net/wiki/Daggerfall:Daggerfall">Daggerfall</a></li>	
-						<li id="n-Arena"><a href="https://en.uesp.net/wiki/Arena:Arena">Arena</a></li>	
-						<li id="n-TES-Travels"><a href="https://en.uesp.net/wiki/TES_Travels">TES Travels</a></li>	
-						<li id="n-Books"><a href="https://en.uesp.net/wiki/Books:Books">Books</a></li>	
-						<li id="n-General"><a href="https://en.uesp.net/wiki/General:Main_Page">General</a></li>	
-						<li id="n-Mods"><a href="https://en.uesp.net/wiki/Mods">Mods</a></li>	
-					</ul>
-				</div>
-		</div>
-		<div class="generated-sidebar portlet" id="p-community">	
-			<h3><label>community</label></h3>
-			<div class="pBody">
-					<ul>
-						<li id="n-portal"><a href="https://en.uesp.net/wiki/UESPWiki:Community_Portal" title="About the project, what you can do, where to find things">Community Portal</a></li>	
-						<li id="n-Contact-Us"><a href="https://en.uesp.net/wiki/UESPWiki:Contact">Contact Us</a></li>	
-						<li id="n-Forums"><a href="https://forums.uesp.net/" rel="nofollow">Forums</a></li>	
-						<li id="n-Blog"><a href="http://blog.uesp.net/" rel="nofollow">Blog</a></li>	
-						<li id="n-Discord"><a href="https://discord.gg/uesp" rel="nofollow">Discord</a></li>	
-						<li id="n-Facebook"><a href="https://www.facebook.com/pages/Unofficial-Elder-Scrolls-Pages/549688078398573" rel="nofollow">Facebook</a></li>	
-						<li id="n-Tumblr"><a href="http://uesp.tumblr.com/" rel="nofollow">Tumblr</a></li>	
-						<li id="n-Twitter"><a href="https://twitter.com/UESP_net" rel="nofollow">Twitter</a></li>	
-						<li id="n-Chatroom"><a href="https://en.uesp.net/wiki/UESPWiki:Discord">Chatroom</a></li>	
-						<li id="n-Links"><a href="https://en.uesp.net/wiki/General:Links">Links</a></li>	
-					</ul>
-				</div>
-		</div>
-			<div class="portlet" id="p-tb" role="navigation">
-			<h3>Tools</h3>
-
-			<div class="pBody">
-				<ul>
-											<li id="t-whatlinkshere"><a href="https://en.uesp.net/wiki/Special:WhatLinksHere/Morrowind:Chuna" title="A list of all wiki pages that link here [Alt+Shift+j]" accesskey="j">What Links Here</a></li>
-											<li id="t-recentchangeslinked"><a href="https://en.uesp.net/wiki/Special:RecentChangesLinked/Morrowind:Chuna" title="Recent changes in pages linked from this page [Alt+Shift+k]" accesskey="k">Related changes</a></li>
-											<li id="t-specialpages"><a href="https://en.uesp.net/wiki/Special:SpecialPages" title="A list of all special pages [Alt+Shift+q]" accesskey="q">Special Pages</a></li>
-											<li id="t-print"><a href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;printable=yes" rel="alternate" title="Printable version of this page [Alt+Shift+p]" accesskey="p">Printable Version</a></li>
-											<li id="t-permalink"><a href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;oldid=1450108" title="Permanent link to this revision of the page">Permanent Link</a></li>
-											<li id="t-info"><a href="https://en.uesp.net/w/index.php?title=Morrowind:Chuna&amp;action=info">Page information</a></li>
-									</ul>
-							</div>
-		</div>
-				<div>
-				<div id="cdm-zone-07"></div>
-			</div>
-			</div><!-- end of the left (by default at least) column -->
-	<div class="visualClear"></div>
-		<div id="footer" role="contentinfo">
-			<div id="f-copyrightico">
-				<a href="https://en.uesp.net/wiki/UESPWiki:Copyright_and_Ownership"><img src="Chuna_files/Somerights.png" style="border: none;" alt="[Content is available under Attribution-ShareAlike]"></a>	
-			</div>
-			<div id="f-poweredbyico">
-				<a href="https://www.mediawiki.org/"><img src="Chuna_files/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" width="88" height="31"></a>	
-			</div>
-		<ul id="f-list">
-				<li id="lastmod"> This page was last modified on 29 May 2015, at 19:50.</li>
-				<li id="copyright"><br>All content is available under the terms of the <a href="https://en.uesp.net/wiki/UESPWiki:Copyright_and_Ownership" title="UESPWiki:Copyright and Ownership">Attribution-ShareAlike 2.5 License</a>.<br></li>
-				<li id="privacy"><a href="https://en.uesp.net/wiki/UESPWiki:Privacy_Policy" title="UESPWiki:Privacy Policy">Privacy Policy</a></li>
-				<li id="about"><a href="https://en.uesp.net/wiki/UESPWiki:About" title="UESPWiki:About">About UESPWiki</a></li>
-				<li id="disclaimer"><a href="https://en.uesp.net/wiki/UESPWiki:General_Disclaimer" title="UESPWiki:General Disclaimer">Disclaimers</a></li>
-				<li id="mobileview"><a href="https://en.m.uesp.net/wiki/Morrowind:Chuna" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
-			</ul>
-	</div>	
-	</div>
 <!-- BEGIN UESP -->
-	<div id="cdm-zone-end"></div>
-	
+<div id="cdm-zone-end"></div>
+
 <!-- Begin comScore -->
 <script>
-	var _comscore = _comscore || [];
-	_comscore.push({ c1: "2", c2: "6035118" });
-	(function() {
-	   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
-	   s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
-	   el.parentNode.insertBefore(s, el);
-	})();
+    var _comscore = _comscore || [];
+    _comscore.push({c1: "2", c2: "6035118"});
+    (function () {
+        var s = document.createElement("script"), el = document.getElementsByTagName("script")[0];
+        s.async = true;
+        s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+        el.parentNode.insertBefore(s, el);
+    })();
 </script>
 <noscript>
-   <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035118&amp;cv=2.0&amp;cj=1" />
+    <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6035118&amp;cv=2.0&amp;cj=1"/>
 </noscript>
 <!-- End comScore -->
 
 <!-- Nielsen Online SiteCensus -->
-       <div><img src="Chuna_files/m.gif" alt="" width="1" height="1"></div>
+<div><img src="Chuna_files/m.gif" alt="" width="1" height="1"></div>
 <!-- End Nielsen Online SiteCensus -->
 <!-- END UESP -->
-	<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
-mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+<script>/*<![CDATA[*/
+window.jQuery && jQuery.ready();
+/*]]>*/</script>
+<script>if (window.mw) {
+    mw.loader.state({"site": "loading", "user": "ready", "user.groups": "ready"});
 }</script>
-<script>if(window.mw){
-mw.loader.load(["mediawiki.action.view.postEdit","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.searchSuggest","ext.gadget.Discord"],null,true);
+<script>if (window.mw) {
+    mw.loader.load(["mediawiki.action.view.postEdit", "mediawiki.user", "mediawiki.hidpi", "mediawiki.page.ready", "mediawiki.searchSuggest", "ext.gadget.Discord"], null, true);
 }</script>
-<script>if(window.mw){
-document.write("\u003Cscript src=\"https://en.uesp.net/w/load.php?debug=false\u0026amp;lang=en\u0026amp;modules=site\u0026amp;only=scripts\u0026amp;skin=uespmonobook\u0026amp;*\"\u003E\u003C/script\u003E");
-}</script><script src="Chuna_files/load.php"></script><div style="display: none; font-size: 13px;" class="suggestions"><div class="suggestions-results"></div><div class="suggestions-special"></div></div>
-<script>if(window.mw){
-mw.config.set({"wgBackendResponseTime":654});
-}</script><iframe name="oauth2relay720069865" id="oauth2relay720069865" src="Chuna_files/postmessageRelay.html" style="width: 1px; height: 1px; position: absolute; top: -100px;" tabindex="-1" aria-hidden="true"></iframe><iframe style="display: none;" src="Chuna_files/iu3.html"></iframe></body></html>
+<script>if (window.mw) {
+    document.write("\u003Cscript src=\"https://en.uesp.net/w/load.php?debug=false\u0026amp;lang=en\u0026amp;modules=site\u0026amp;only=scripts\u0026amp;skin=uespmonobook\u0026amp;*\"\u003E\u003C/script\u003E");
+}</script>
+<script src="Chuna_files/load.php"></script>
+<div style="display: none; font-size: 13px;" class="suggestions">
+    <div class="suggestions-results"></div>
+    <div class="suggestions-special"></div>
+</div>
+<script>if (window.mw) {
+    mw.config.set({"wgBackendResponseTime": 654});
+}</script>
+<iframe name="oauth2relay720069865" id="oauth2relay720069865" src="Chuna_files/postmessageRelay.html"
+        style="width: 1px; height: 1px; position: absolute; top: -100px;" tabindex="-1" aria-hidden="true"></iframe>
+<iframe style="display: none;" src="Chuna_files/iu3.html"></iframe>
+</body>
+</html>
